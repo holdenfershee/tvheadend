@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="France 24 English" tvg-language="English" tvg-country="FR" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnjQokqv8-b-XLH34XJulaY0W27AzlCmyeEY7TayMw=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",France 24 English
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/france24english/live
+#EXTINF:-1 tvg-name="France 24" tvg-language="French" tvg-country="FR" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwngwSBIFO5UNdycjzkUjIRFEq0n5YWKTOgsfbgKdoQ=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",France 24
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/france24/live
+#EXTINF:-1 tvg-name="DW English" tvg-language="English" tvg-country="DE" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwngnDcvUkm6jCn6TEENsvO8bdy60g-T4lCgUWOyemCs=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",DW English
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/deutschewelleenglish/live
+#EXTINF:-1 tvg-name="DW Deutsch" tvg-language="German" tvg-country="DE" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhXY-iIvV4naxL4WWuS_JQKOqfjqwSgzMswGp4aJUc=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",DW Deutsch
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/deutschewelle/live
+#EXTINF:-1 tvg-name="Euronews English" tvg-language="English" tvg-country="FR" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnja_dPZdy_el5IhBkj9BJUAd29fZzSs4-vaws_uPLw=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",Euronews English
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/Euronews/live
+#EXTINF:-1 tvg-name="Euronews Spanish" tvg-language="Spanish" tvg-country="FR" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnh8LYxyL6VKfHAGYV0qCJ4hqaWDO5GympC7lRIViw=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",Euronews Spanish
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/euronewses/live
+#EXTINF:-1 tvg-name="Euronews Portuguese" tvg-language="Portuguese" tvg-country="FR" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwngxE0l-vGHBafT-fP7WfCq_Xo7QfDLATRspf0agKA=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",Euronews Portuguese
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/user/euronewspt/live
